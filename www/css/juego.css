@@ -1,7 +1,7 @@
 body{
   margin: 0px;
   padding: 0px;
-  background-color: #fff;
+  background-color: #000;
 }
 
 body.agitado{
@@ -30,4 +30,16 @@ div.lectura{
 	margin-right: auto;
 	text-align: center;
 	vertical-align: middle;
+}
+
+.centrado
+{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    text-align: center;
+
+    z-index: 10;
 }
