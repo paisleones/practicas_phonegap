@@ -5,11 +5,23 @@
         <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
         <title>Space game with sensors</title>
 		<link rel="stylesheet" type="text/css" href="css/juego.css" />
+		<script type="text/javascript" src="js/jquery.js"></script>
 
     </head>
     <body>
+    <div id="portada" style="width: 100%; height: 100%; position: absolute; top: 0px; left: 0px; z-index: 999; background: #000">
+<div class="centrado">
+			<img align="center" src="img/loading.gif" />
+			<br>
+			<img src="img/titulo.png">
+			</div>
+    </div>
+    <script>
+    setTimeout(function(){$('#portada').fadeOut("slow");},
+        2000);
+        </script>
+
 		<div id="divPhaser">
-			<img align="center" src="img/loading.gif" class="centrado" />
 		</div>
         <script type="text/javascript" src="cordova.js"></script>
 		<script type="text/javascript" src="js/phaser.min.js"></script>

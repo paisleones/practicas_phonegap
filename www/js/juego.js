@@ -22,7 +22,10 @@ var app={
 			//Aplica "Fisica.Arcade" al juego
 			game.physics.startSystem(Phaser.Physics.ARCADE);
 			//Color de fondo del juego
-			game.stage.backgroundColor = '#000000'; //'#f27d0c';
+			game.stage.backgroundColor = '#000000';
+			game.stage.image("background", "img/space.png");
+
+			 //'#f27d0c';
 			//Como se construye el elemento BOLA
 			//game.load.image('bola', 'assets/bola.png');
 			//Como se construye el elemento OBJETIVO
