@@ -23,7 +23,6 @@ var app={
 			game.physics.startSystem(Phaser.Physics.ARCADE);
 			//Color de fondo del juego
 			game.stage.backgroundColor = '#000000';
-			game.stage.image("background", "img/space.png");
 
 			 //'#f27d0c';
 			//Como se construye el elemento BOLA
