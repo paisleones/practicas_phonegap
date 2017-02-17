@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+        <title>Juego EJERCICIO</title>
+		<link rel="stylesheet" type="text/css" href="css/juego.css" />
+		<!--
+		Vamos a partir del código desarrollado durante el módulo que podéis descargar de este repositorio en 
+		GitHub: https://github.com/devscola/MOOC-game
+
+
+		1. Más objetivos​.
+		Vamos a modificar nuestro juego para añadir más objetivos, de forma que al tocarlo aumente la puntuación de manera diferente. 
+		Un objetivo aumenta la puntuación en 1 y el otro en 10.
+
+
+		2. Colisiones​.
+		Vamos a modificar el juego para que, al colisionar con los bordes del mundo, el fondo de la pantalla cambie a un color rojo más vivo. 
+		De esta forma indicamos al usuario que está perdiendo puntos. Se deberá mantener este color sólo mientras se está colisionando.
+
+
+		3. Dificultad​.
+		Finalmente vamos a modificar levemente el juego para que al aumentar la dificultad del juego el fondo de la pantalla se vaya haciendo más claro. 
+		De igual forma, al bajar la dificultad se haga más oscuro hasta llegar a la dificultad 1 que usará el color inicial.
+		-->
+    </head>
+    <body>
+		<div id="divPhaser">
+			<br />
+			<br />
+			<br />
+			Cargando JUEGO...
+			<br />
+			<br />
+			<br />
+			<img align="center" src="img/cargando.gif" />
+		</div>
+        <script type="text/javascript" src="cordova.js"></script>
+		<script type="text/javascript" src="js/phaser.min.js"></script>
+		<script type="text/javascript" src="js/juego.js"></script>
+    </body>
+</html>
