@@ -5,10 +5,13 @@
         Space game with sensors
     </description>
     <author email="support@phonegap.com" href="http://phonegap.com">
-        Aspim - PhoneGap Team
+        SPACE TEAM
     </author>
     <content src="index.html" />
+    <preference name="Fullscreen" value="true" />
+    <preference name="Orientation" value="default" />
+    <preference name="BackgroundColor" value="000000"/>
     <access origin="*" />
-	
+	<icon src="www/icon.png" />
 	<plugin name="cordova-plugin-device-motion"/>
 </widget>
