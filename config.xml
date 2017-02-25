@@ -1,17 +1,12 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.phonegap.helloworld" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>SPACE SENSORS</name>
+<widget id="com.h4ckademy.maps" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>Maps</name>
     <description>
-        Space game with sensors
+        Una aplicación simple de PhoneGap que usa geolocalización y mapas de Leaflet
     </description>
-    <author email="support@phonegap.com" href="http://phonegap.com">
-        SPACE TEAM
+    <author email="h4@h4ckademy.com" href="http://h4ckademy.com">
+        h4ckademy
     </author>
     <content src="index.html" />
-    <preference name="Fullscreen" value="true" />
-    <preference name="Orientation" value="default" />
-    <preference name="BackgroundColor" value="000000"/>
     <access origin="*" />
-	<icon src="www/icon.png" />
-	<plugin name="cordova-plugin-device-motion"/>
 </widget>

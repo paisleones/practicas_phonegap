@@ -1,14 +1,13 @@
-# A Blank PhoneGap App
+# Maps
 
-## Usage
+Una aplicación simple de PhoneGap que usa geolocalización y mapas de Leaflet
 
-### PhoneGap CLI
+## Uso
 
-    $ phonegap create my-app --template blank
+Servimos la aplicación móvil usando
 
-### Desktop
+    phonegap serve
 
-In your browser, open the file:
+Y luego accedemos desde [PhoneGap Developer App](http://docs.phonegap.com/getting-started/2-install-mobile-app/)
 
-    /www/index.html
-
+Aplicación creada para el curso online "Creando Apps. Introducción a la programación de aplicaciones móviles."

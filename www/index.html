@@ -1,30 +1,28 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
-        <title>Space game with sensors</title>
-		<link rel="stylesheet" type="text/css" href="css/juego.css" />
-		<script type="text/javascript" src="js/jquery.js"></script>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <link rel="stylesheet" type="text/css" href="css/leaflet.css" />
+    <link rel="stylesheet" type="text/css" href="css/maps.css" />
+    <title>Maps</title>
+  </head>
+  <body>
 
-    </head>
-    <body>
-    <div id="portada" style="width: 100%; height: 100%; position: absolute; top: 0px; left: 0px; z-index: 999; background: #000">
-<div class="centrado">
-			<img align="center" src="img/loading.gif" />
-			<br>
-			<img src="img/titulo.png">
-			</div>
+    <div class="header">
+      <img align="left" src="img/maps.png">
+      <span>Mapas con Geolocalización</span>
     </div>
-    <script>
-    setTimeout(function(){$('#portada').fadeOut("slow");},
-        3000);
-        </script>
 
-		<div id="divPhaser">
-		</div>
-        <script type="text/javascript" src="cordova.js"></script>
-		<script type="text/javascript" src="js/phaser.min.js"></script>
-		<script type="text/javascript" src="js/juego.js"></script>
-    </body>
+    <div id="map"></div>
+
+    <div class="footer">
+      Creando Apps. Aprende a programar aplicaciones móviles.
+    </div>
+
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/fastclick.js"></script>
+    <script type="text/javascript" src="js/leaflet.js"></script>
+    <script type="text/javascript" src="js/maps.js"></script>
+  </body>
 </html>
